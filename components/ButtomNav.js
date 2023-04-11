@@ -3,11 +3,27 @@ import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase } from 'react-icons/bs';
 import ButtomNavIcons from './ButtomNavIcons';
+import { motion } from 'framer-motion';
 
 function ButtomNav() {
   return (
     <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
-      <div className="container mx-auto">
+      <motion.div
+        initial={{
+          y: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+        className="container mx-auto"
+      >
         {/* nav inner */}
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <Link
@@ -46,7 +62,7 @@ function ButtomNav() {
             <ButtomNavIcons Icon={BsBriefcase} />
           </Link>
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 }

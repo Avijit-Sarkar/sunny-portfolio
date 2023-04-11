@@ -1,4 +1,6 @@
+import About from '@/components/About';
 import ButtomNav from '@/components/ButtomNav';
+import Experience from '@/components/Experience';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Head from 'next/head';
@@ -16,8 +18,16 @@ export default function Home() {
       <Header />
       <ButtomNav />
       {/* Hero Section */}
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         <Hero />
+      </section>
+      {/* About Section */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
+      {/* Experience Section */}
+      <section id="experience" className="snap-center">
+        <Experience />
       </section>
     </div>
   );
