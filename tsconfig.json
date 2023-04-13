@@ -24,7 +24,8 @@
     "**/*.tsx",
     "components/ButtomNav.js",
     "components/BackgroundCircles.tsx",
-    "components/ButtomNavIcons.js"
+    "components/ButtomNavIcons.js",
+    "components/Experience.js"
   ],
   "exclude": ["node_modules"]
 }
