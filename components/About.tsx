@@ -44,7 +44,7 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]">little</span>{' '}
           background
         </h4>
-        <p className="text-sm md:text-xl mx-2">
+        <p className="text-sm md:text-xl mx-2 px-4">
           I chose to specialize in cybersecurity by passion, and also after
           being hacked once in social media ( Thanks to the hacker ). Except
           college studies, I spend most of the time in practice of logic
