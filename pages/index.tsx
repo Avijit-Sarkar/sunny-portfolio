@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Skills from '@/components/Skills';
 import Head from 'next/head';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
       {/* Skills */}
       <section id="skills" className="snap-center scroll-smooth">
         <Skills />
+      </section>
+      <section id="projects" className="snap-start scroll-smooth">
+        <Projects />
       </section>
     </div>
   );
