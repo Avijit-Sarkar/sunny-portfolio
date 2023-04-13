@@ -25,7 +25,10 @@
     "components/ButtomNav.js",
     "components/BackgroundCircles.tsx",
     "components/ButtomNavIcons.js",
-    "components/Experience.js"
+    "components/Experience.js",
+    "components/Skill.js",
+    "components/Skills.js",
+    "components/ExprienceCard.js"
   ],
   "exclude": ["node_modules"]
 }

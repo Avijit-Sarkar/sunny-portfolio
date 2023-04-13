@@ -27,11 +27,46 @@ function Experience() {
         id="slider"
         className="w-full flex space-x-5 overflow-x-scroll scroll whitespace-nowrap scroll-smooth py-10 snap-x snap-mandatory scrollbar-hide"
       >
-        <ExprienceCard />
-        <ExprienceCard />
-        <ExprienceCard />
-        <ExprienceCard />
-        <ExprienceCard />
+        <ExprienceCard
+          imgSrc={'/node-js.png'}
+          imgSrc2={'/js.png'}
+          imgSrc3={'/css-3d-icon-removebg-preview.png'}
+          Postname={'Data Analyst'}
+          companyName={'Google'}
+          compImg={'/google-logo.png'}
+        />
+        <ExprienceCard
+          imgSrc2={'/node-js.png'}
+          imgSrc={'/react js_logo.png'}
+          imgSrc3={'/Tailwind_CSS_Logo.svg.png'}
+          Postname={'Manager'}
+          companyName={'Tesla'}
+          compImg={'/tesla-logo.png'}
+        />
+        <ExprienceCard
+          imgSrc={'/firebase-removebg-preview.png'}
+          imgSrc2={'/google-logo.png'}
+          imgSrc3={'/html5.png'}
+          Postname={'Field Manager'}
+          companyName={'Amazon'}
+          compImg={'/amazon.png'}
+        />
+        <ExprienceCard
+          imgSrc={'/kali-logo.png'}
+          imgSrc2={'/metasploit-removebg-preview.png'}
+          imgSrc3={'/ts.png'}
+          Postname={'Ethical Hacker'}
+          companyName={'Microsoft'}
+          compImg={'/microsoft.png'}
+        />
+        <ExprienceCard
+          imgSrc={'/sanity.png'}
+          imgSrc2={'/react js_logo.png'}
+          imgSrc3={'/mongodb.png'}
+          Postname={'Engineer'}
+          companyName={'Sanity'}
+          compImg={'/sanity.png'}
+        />
       </div>
       <MdChevronRight
         className="hidden md:flex md:opacity-50 md:cursor-pointer md:hover:opacity-100"
