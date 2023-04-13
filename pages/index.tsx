@@ -19,11 +19,11 @@ export default function Home() {
       <Header />
       <ButtomNav />
       {/* Hero Section */}
-      <section id="hero" className="snap-start">
+      <section id="hero" className="snap-center scroll-smooth">
         <Hero />
       </section>
       {/* About Section */}
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-center scroll-smooth">
         <About />
       </section>
       {/* Experience Section */}
@@ -31,7 +31,7 @@ export default function Home() {
         <Experience />
       </section>
       {/* Skills */}
-      <section id="skills" className="snap-start">
+      <section id="skills" className="snap-center">
         <Skills />
       </section>
     </div>
