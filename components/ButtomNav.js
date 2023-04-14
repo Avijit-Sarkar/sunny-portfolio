@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase } from 'react-icons/bs';
+import { FaUserCircle } from 'react-icons/fa';
+import { VscSettings } from 'react-icons/vsc';
+import { RiMedal2Fill } from 'react-icons/ri';
+import { HiHome, HiOutlineAcademicCap } from 'react-icons/hi';
+import { BsFillChatSquareTextFill, BsBriefcase } from 'react-icons/bs';
+
 import ButtomNavIcons from './ButtomNavIcons';
 import { motion } from 'framer-motion';
 
@@ -31,28 +35,28 @@ function ButtomNav() {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:scale-125 transition-all duration-150 rounded-full ease-out md:hover:bg-cyan-400/50"
           >
             {/* <BiHomeAlt /> */}
-            <ButtomNavIcons Icon={BiHomeAlt} />
+            <ButtomNavIcons Icon={HiHome} />
           </Link>
           <Link
             href="#about"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:scale-125 transition-all duration-150 rounded-full ease-out md:hover:bg-cyan-400/50"
           >
             {/* <BiUser /> */}
-            <ButtomNavIcons Icon={BiUser} />
+            <ButtomNavIcons Icon={FaUserCircle} />
           </Link>
           <Link
             href="#experience"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:scale-125 transition-all duration-150 rounded-full ease-out md:hover:bg-cyan-400/50"
           >
             {/* <BsClipboardData /> */}
-            <ButtomNavIcons Icon={BsClipboardData} />
+            <ButtomNavIcons Icon={RiMedal2Fill} />
           </Link>
           <Link
             href="#skills"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:scale-125 transition-all duration-150 rounded-full ease-out md:hover:bg-cyan-400/50"
           >
             {/* <BsBriefcase /> */}
-            <ButtomNavIcons Icon={BsBriefcase} />
+            <ButtomNavIcons Icon={VscSettings} />
           </Link>
           <Link
             href="#projects"
@@ -60,6 +64,13 @@ function ButtomNav() {
           >
             {/* <BsBriefcase /> */}
             <ButtomNavIcons Icon={BsBriefcase} />
+          </Link>
+          <Link
+            href="#contact"
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:scale-125 transition-all duration-150 rounded-full ease-out md:hover:bg-cyan-400/50"
+          >
+            {/* <BsBriefcase /> */}
+            <ButtomNavIcons Icon={BsFillChatSquareTextFill} />
           </Link>
         </div>
       </motion.div>

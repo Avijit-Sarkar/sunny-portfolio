@@ -23,21 +23,25 @@ function Skills() {
           text={'90%'}
         />
         <Skill directionLeft imgSrc={'/js.png'} text={'92%'} />
-        <Skill imgSrc={'/Tailwind_CSS_Logo.svg.png'} text={'70%'} />
-        <Skill imgSrc={'/css-3d-icon-removebg-preview.png'} text={'59%'} />
-        <Skill directionLeft imgSrc={'/react js_logo.png'} text={'80%'} />
-        <Skill directionLeft imgSrc={'/html5.png'} text={'89%'} />
-        <Skill imgSrc={'/mongodb.png'} text={'78%'} />
-        <Skill imgSrc={'/kali-logo.png'} text={'100%'} />
         <Skill
           directionLeft
-          imgSrc={'/metasploit-removebg-preview.png'}
-          text={'97%'}
+          imgSrc={'/Tailwind_CSS_Logo.svg.png'}
+          text={'70%'}
         />
-        <Skill directionLeft imgSrc={'/node-js.png'} text={'75%'} />
+        <Skill
+          directionLeft
+          imgSrc={'/css-3d-icon-removebg-preview.png'}
+          text={'59%'}
+        />
+        <Skill directionLeft imgSrc={'/react js_logo.png'} text={'80%'} />
+        <Skill directionLeft imgSrc={'/html5.png'} text={'89%'} />
+        <Skill directionLeft imgSrc={'/mongodb.png'} text={'78%'} />
+        <Skill directionLeft imgSrc={'/kali-logo.png'} text={'100%'} />
+        <Skill imgSrc={'/metasploit-removebg-preview.png'} text={'97%'} />
+        <Skill imgSrc={'/node-js.png'} text={'75%'} />
         <Skill imgSrc={'/nextjs.png'} text={'100%'} />
         <Skill imgSrc={'/sanity.png'} text={'81%'} />
-        <Skill directionLeft imgSrc={'/ts.png'} text={'68%'} />
+        <Skill imgSrc={'/ts.png'} text={'68%'} />
       </div>
     </motion.div>
   );

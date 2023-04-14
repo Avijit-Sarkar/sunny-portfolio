@@ -25,7 +25,7 @@ function Header({}: Props) {
       >
         {/* social Icons */}
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://www.facebook.com"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -35,7 +35,17 @@ function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://www.instagram.com"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.share.com"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.twitter.com"
           fgColor="gray"
           bgColor="transparent"
         />
