@@ -24,7 +24,7 @@ function About({}: Props) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false }}
-        src="/elon.jpg"
+        src="/charlie.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-72 md:ml-8 md:h-80 xl:w-[350px] xl:h-[400px]"
       />
       <motion.div

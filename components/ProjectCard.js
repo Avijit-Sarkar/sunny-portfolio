@@ -11,7 +11,7 @@ function ProjectCard({ imgsrc, title }) {
         viewport={{ once: false }}
         src={imgsrc}
         alt="hello"
-        className="h-60"
+        className="md:h-72 lg:h-60"
       />
       <div className="space-y-5 px-0 md:px-10 max-w-6xl">
         <h4 className="text-2xl font-semibold text-center">{title}</h4>

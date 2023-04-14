@@ -19,7 +19,7 @@ function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        src="/Elon.jpg"
+        src="/charlie.jpg"
         className="relative rounded-full w-32 h-32 mx-auto object-cover"
         alt="elon"
         width={200}
